@@ -1,0 +1,48 @@
+@import 'arch_definitions.less';
+
+// Color overrides
+
+// Primary 'Progressive' Color, Background Color and states
+@background-color-primary:        @wmui-color-accent90;
+@background-color-primary--hover: rgba( 41, 98, 204, 0.1 );
+@color-primary:                   @archlinux-blue; //@wmui-color-accent50;
+@color-primary--hover:            darken( @archlinux-blue, 3 ); //@wmui-color-accent50--lighten;
+@color-primary--active:           @archlinux-blue; //@wmui-color-accent30;
+@color-primary--focus:            @color-primary;
+// 'Destructive' Color, Background Color and states
+@background-color-destructive:    @archlinux-red90; //@wmui-color-red90;
+@color-destructive:               @archlinux-red50; //@wmui-color-red50;
+@color-destructive--hover:        lighten( @archlinux-red50, 3 ); //@wmui-color-red50--lighten;
+@color-destructive--active:       @archlinux-red30; //@wmui-color-red30;
+@color-destructive--focus:        @color-destructive;
+// Secondary Color and states (links only)
+@color-secondary:                 @archlinux-green50; //@wmui-color-green50;
+@color-secondary--hover:          lighten( @archlinux-green50, 3 ); //@wmui-color-green50--lighten;
+@color-secondary--active:         @archlinux-green30; //@wmui-color-green30;
+@color-secondary--focus:          @color-secondary;
+// User system messages (errors, warnings, successes, notices)
+@color-error:                     @archlinux-red50; //@wmui-color-red50;
+@color-warning:                   @wmui-color-base0;
+@color-success:                   @archlinux-green50; //@wmui-color-green30;
+@color-success--framed:           @wmui-color-base0;
+@color-notice:                    @wmui-color-base0;
+// Toolbar and Tools
+@color-tool--hover:               @color-base--emphasized; // Used here in combination with `:hover` background-color turning light grey
+@color-tool--active:              @color-primary;
+// User system messages (errors, warnings, successes, notices)
+@background-color-error--framed: @archlinux-red90; //@wmui-color-red90;
+@background-color-warning--framed: @wmui-color-yellow90;
+@background-color-success--framed: @archlinux-green90; //@wmui-color-green90;
+@background-color-notice--framed: @wmui-color-base80;
+
+// Border Colors user system messages
+@border-color-error:              @archlinux-red30; //@wmui-color-red30;
+@border-color-warning:            @wmui-color-yellow30;
+@border-color-success:            @archlinux-green30; //@wmui-color-green700;
+@border-color-notice:             @wmui-color-base20;
+
+// Highlight Colors for text highlighting, think metaphorically text marker
+@background-color-highlight:      rgba( 255, 182, 13, 0.4 ); // Equals to `#ffe29e` on `#fff` background.
+
+// Box Shadows
+@box-shadow-base--focus:          inset 0 0 0 1px @archlinux-blue; //@wmui-color-accent50;
