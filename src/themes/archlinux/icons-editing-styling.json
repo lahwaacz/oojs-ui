@@ -8,7 +8,7 @@
 			"global": true
 		},
 		"progressive": {
-			"color": "#36c",
+			"color": "#08c",
 			"global": true
 		},
 		"destructive": {
@@ -21,7 +21,7 @@
 			"color": "#edab00"
 		},
 		"success": {
-			"color": "#14866d"
+			"color": "#008000"
 		}
 	},
 	"images": {
