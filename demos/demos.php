@@ -12,6 +12,7 @@
 
 	// phpcs:disable MediaWiki.WhiteSpace.SpaceBeforeSingleLineComment.NewLineComment
 	$themes = [
+		'archlinux' => 'ArchLinux',
 		'wikimediaui' => 'WikimediaUI', // Do not change this line or you'll break `grunt add-theme`
 		'apex' => 'Apex',
 	];
